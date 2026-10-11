@@ -1,0 +1,218 @@
+{
+  "version": "1.0",
+  "project": "VastuVerse",
+  "description": "Educational, searchable notes on common Vastu Shastra topics. Interpretations vary across traditions and practitioners.",
+  "topics": [
+    {
+      "id": "bedroom",
+      "label": "Bedroom",
+      "keywords": ["bedroom", "bed room", "bed", "master bedroom", "guest bedroom", "children bedroom", "sleeping room"],
+      "question": "Which bedroom topic would you like to explore?",
+      "options": ["Best direction", "Bed placement", "Sleeping direction", "Mirror placement", "Bedroom colours"],
+      "answers": {
+        "Best direction": "Some Vastu traditions recommend the south-west for a main bedroom and other zones for guest or children's rooms. Treat this as a traditional guideline, not a universal rule; comfort, ventilation, privacy and the floor plan matter too.",
+        "Bed placement": "Traditional advice often suggests placing the bed so there is clear circulation around it and avoiding a position directly under heavy beams where practical. Ensure the layout is safe and comfortable.",
+        "Sleeping direction": "A common Vastu recommendation is to sleep with the head toward the south or east. Scientific evidence does not establish that a particular sleep direction guarantees better health; prioritise a comfortable, quiet sleep environment.",
+        "Mirror placement": "Some traditions advise avoiding a mirror directly facing the bed. Practically, position mirrors to reduce glare and avoid obstructing walkways.",
+        "Bedroom colours": "Soft, restful colours such as warm white, beige, muted green or gentle earth tones are often suggested. Choose colours that feel comfortable and work with daylight and personal preference."
+      }
+    },
+    {
+      "id": "kitchen",
+      "label": "Kitchen",
+      "keywords": ["kitchen", "cooking", "stove", "gas stove", "hob", "sink", "cooktop", "chimney"],
+      "question": "What would you like to know about the kitchen?",
+      "options": ["Kitchen direction", "Stove placement", "Sink placement", "Kitchen colours", "Ventilation"],
+      "answers": {
+        "Kitchen direction": "Many Vastu guides associate the south-east with the kitchen, while some allow alternatives depending on the plan. Safety, plumbing, ventilation and efficient workflow should take priority in an actual design.",
+        "Stove placement": "Traditional guidance commonly discusses positioning the cooking area in the south-east and having the cook face east where feasible. Follow appliance clearances, fire-safety instructions and ventilation requirements first.",
+        "Sink placement": "Some Vastu interpretations prefer water fixtures away from the stove. In practice, keep safe separation between water and electrical appliances, provide proper drainage and use a practical work triangle.",
+        "Kitchen colours": "Cream, warm white, light yellow and earthy tones are common traditional suggestions. Select durable, cleanable finishes and adequate task lighting.",
+        "Ventilation": "Provide effective extraction and fresh-air supply, especially for gas cooking. Follow local building codes and the appliance manufacturer's requirements."
+      }
+    },
+    {
+      "id": "entrance",
+      "label": "Main Entrance",
+      "keywords": ["entrance", "main door", "front door", "door", "main entrance", "entry", "entrance door"],
+      "question": "What would you like to know about the main entrance?",
+      "options": ["Entrance direction", "Door design", "Lighting and cleanliness", "Entrance colours"],
+      "answers": {
+        "Entrance direction": "Vastu traditions discuss several favourable entrance directions, with recommendations varying by text and school. The correct choice for a real building depends on the site, circulation, security and local requirements.",
+        "Door design": "A common traditional preference is for a clear, well-maintained entrance. Practically, ensure the door opens safely, is accessible and does not obstruct a corridor or escape route.",
+        "Lighting and cleanliness": "Keep the entrance well-lit, dry and free from trip hazards. Good lighting and clear circulation are useful regardless of Vastu interpretation.",
+        "Entrance colours": "Natural wood tones, warm neutrals and colours that suit the facade are commonly used. There is no single colour that guarantees prosperity."
+      }
+    },
+    {
+      "id": "pooja-room",
+      "label": "Pooja / Prayer Room",
+      "keywords": ["pooja", "puja", "prayer room", "mandir", "temple at home", "worship room"],
+      "question": "What would you like to know about a pooja or prayer space?",
+      "options": ["Suggested direction", "Placement and cleanliness", "Lighting and design"],
+      "answers": {
+        "Suggested direction": "Many Vastu traditions prefer the north-east for a pooja or prayer space. If that is not practical, a quiet, clean and respectful location can still serve the household's needs.",
+        "Placement and cleanliness": "Traditional advice often favours a dedicated, uncluttered place for worship. Keep the space accessible, stable and away from hazards or moisture.",
+        "Lighting and design": "Use comfortable lighting, safe placement of lamps and sufficient ventilation. Never leave open flames unattended."
+      }
+    },
+    {
+      "id": "bathroom",
+      "label": "Bathroom and Toilet",
+      "keywords": ["bathroom", "toilet", "washroom", "restroom", "wc", "shower"],
+      "question": "What would you like to know about the bathroom or toilet?",
+      "options": ["Traditional placement", "Ventilation", "Waterproofing and drainage"],
+      "answers": {
+        "Traditional placement": "Traditional recommendations differ, but some Vastu guides discuss west or north-west zones for toilets. In real projects, plumbing routes, ventilation, accessibility and code compliance are more important than a general direction rule.",
+        "Ventilation": "Use a suitable exhaust fan or window to control humidity and odours. Prevent moisture from spreading into adjacent rooms.",
+        "Waterproofing and drainage": "Correct waterproofing, floor slope, traps and drainage are essential to prevent leaks and mould. Follow professional installation guidance and local codes."
+      }
+    },
+    {
+      "id": "study-room",
+      "label": "Study Room",
+      "keywords": ["study", "study room", "desk", "study table", "work desk", "home office", "office"],
+      "question": "What would you like to know about a study room?",
+      "options": ["Desk direction", "Lighting and focus", "Colours and organisation"],
+      "answers": {
+        "Desk direction": "Some Vastu advice suggests facing east or north while studying or working. There is no established guarantee from desk direction alone; choose a position with good light, comfortable posture and minimal distraction.",
+        "Lighting and focus": "Use even ambient light and task lighting, reduce screen glare and place the desk where the user can work comfortably. Keep frequently used items within reach.",
+        "Colours and organisation": "Muted neutrals and calm colours can help create a visually quiet workspace. Organise cables and supplies and keep walkways clear."
+      }
+    },
+    {
+      "id": "living-room",
+      "label": "Living Room",
+      "keywords": ["living room", "hall", "drawing room", "sofa", "guest sitting", "family room"],
+      "question": "What would you like to know about the living room?",
+      "options": ["Suggested zone", "Sofa placement", "Light and circulation"],
+      "answers": {
+        "Suggested zone": "Some Vastu guides suggest east, north or north-east areas for a living room, but layouts vary. Base final decisions on entry circulation, daylight, views and family needs.",
+        "Sofa placement": "Traditional guidance sometimes favours heavier seating toward the south or west walls. Practically, leave clear paths, avoid blocking windows and arrange seating for conversation.",
+        "Light and circulation": "Combine natural light with layered lighting and leave accessible, unobstructed routes through the room."
+      }
+    },
+    {
+      "id": "water",
+      "label": "Water and Water Features",
+      "keywords": ["water", "water tank", "overhead tank", "underground tank", "fountain", "borewell", "well", "aquarium"],
+      "question": "Which water-related topic are you asking about?",
+      "options": ["Underground water storage", "Overhead tank", "Water feature", "Aquarium"],
+      "answers": {
+        "Underground water storage": "Some Vastu traditions associate underground water sources with the north or north-east. Actual placement requires geological, structural, sanitary and local-code assessment.",
+        "Overhead tank": "Traditional recommendations often place heavier overhead tanks toward the south-west. A structural engineer must determine tank location, support and load capacity.",
+        "Water feature": "Water features are sometimes recommended in northern or north-eastern areas in Vastu guides. Prevent standing water, leaks, electrical hazards and mosquito breeding.",
+        "Aquarium": "Traditional advice varies on aquarium placement. Maintain appropriate tank size, filtration, lighting and animal welfare rather than relying on direction alone."
+      }
+    },
+    {
+      "id": "colours",
+      "label": "Colours",
+      "keywords": ["colour", "color", "paint", "wall colour", "wall color", "paint colour", "paint color"],
+      "question": "Which colour topic would you like to explore?",
+      "options": ["Bedroom colours", "Kitchen colours", "Living room colours", "Entrance colours"],
+      "answers": {
+        "Bedroom colours": "Soft neutrals, muted greens and gentle earth tones are common suggestions for bedrooms. Choose a palette that supports your comfort and works with the room's light.",
+        "Kitchen colours": "Cream, warm white, light yellow and earthy shades are common traditional suggestions. Consider cleaning, durability and light reflectance.",
+        "Living room colours": "Warm neutrals, muted greens and terracotta accents can create a welcoming room. Coordinate with furnishings, daylight and the intended atmosphere.",
+        "Entrance colours": "Natural wood tones and colours that complement the exterior are practical choices. No colour can guarantee luck or financial outcomes."
+      }
+    },
+    {
+      "id": "mirror",
+      "label": "Mirror Placement",
+      "keywords": ["mirror", "looking glass", "dressing mirror", "mirror direction"],
+      "question": "What would you like to know about mirrors?",
+      "options": ["Bedroom mirror", "Mirror in living room", "Practical placement"],
+      "answers": {
+        "Bedroom mirror": "Some Vastu traditions advise not placing a mirror directly opposite the bed. For practical comfort, avoid reflections that disturb sleep and position mirrors securely.",
+        "Mirror in living room": "Choose a position that reflects pleasant light or a view without creating glare. Secure large mirrors properly to the wall.",
+        "Practical placement": "Avoid mirrors that narrow circulation paths or create confusing reflections near stairs and glass doors. Use safe mounting hardware."
+      }
+    },
+    {
+      "id": "directions",
+      "label": "Directions",
+      "keywords": ["direction", "north", "south", "east", "west", "north east", "north-east", "south east", "south-east", "north west", "north-west", "south west", "south-west", "compass"],
+      "question": "Which direction would you like to learn about?",
+      "options": ["North", "North-East", "East", "South-East", "South", "South-West", "West", "North-West"],
+      "answers": {
+        "North": "North is often associated with prosperity or opportunity in Vastu interpretations. These meanings are cultural traditions rather than measurable predictions.",
+        "North-East": "North-east is commonly associated with prayer, reflection and openness in many Vastu guides.",
+        "East": "East is often linked with sunrise and renewal; daylight planning is also a practical architectural consideration.",
+        "South-East": "South-east is traditionally associated with Agni, or the fire principle, and is commonly discussed for kitchen placement.",
+        "South": "South is sometimes associated with stability and protection in Vastu interpretations.",
+        "South-West": "South-west is commonly linked with stability and is often suggested for a main bedroom in traditional guides.",
+        "West": "West is associated with sunset. In hot climates, west-facing windows may need shading to control heat gain.",
+        "North-West": "North-west is sometimes associated with movement or transition and is discussed for guest rooms in some guides."
+      }
+    },
+    {
+      "id": "plants",
+      "label": "Plants and Garden",
+      "keywords": ["plant", "plants", "tree", "trees", "garden", "tulsi", "basil", "money plant", "indoor plant"],
+      "question": "What would you like to know about plants at home?",
+      "options": ["Indoor plants", "Garden placement", "Tulsi plant"],
+      "answers": {
+        "Indoor plants": "Some Vastu guides recommend healthy green plants in selected areas. Choose species suited to indoor light, keep them healthy and check toxicity if children or pets are present.",
+        "Garden placement": "Traditional garden suggestions vary. For a practical garden, consider sun exposure, drainage, root spread, maintenance and distance from foundations.",
+        "Tulsi plant": "Tulsi has cultural and religious significance in many Indian households and is often kept in a clean, bright place. Provide appropriate sunlight and watering for healthy growth."
+      }
+    },
+    {
+      "id": "staircase",
+      "label": "Staircase",
+      "keywords": ["staircase", "stairs", "stair", "steps", "stair direction"],
+      "question": "What would you like to know about staircases?",
+      "options": ["Traditional location", "Safety and dimensions"],
+      "answers": {
+        "Traditional location": "Some Vastu guidance discusses south, west or south-west locations for stairs. The final location must work with structure, circulation, fire safety and the applicable building code.",
+        "Safety and dimensions": "Stairs require consistent risers and treads, adequate headroom, handrails, lighting and secure landings. Follow local regulations and professional design."
+      }
+    }
+  ],
+  "faqs": [
+    {"question":"Which direction is best for the main entrance?","keywords":["main entrance direction","best entrance","front door direction","door facing"],"answer":"Vastu traditions discuss several favourable entrance directions, and recommendations vary across texts and practitioners. For an actual home, also consider site access, daylight, privacy, accessibility, security and local building rules."},
+    {"question":"Which direction is best for a bedroom?","keywords":["bedroom direction","master bedroom location","sleeping room direction"],"answer":"Many Vastu guides suggest the south-west for a main bedroom, while alternatives may be suggested for guest or children's rooms. Treat this as a traditional guideline and prioritise comfort, ventilation, privacy and the floor plan."},
+    {"question":"Which direction should I face while sleeping?","keywords":["sleep direction","head direction while sleeping","sleeping head south","head east"],"answer":"A common Vastu recommendation is to sleep with the head toward the south or east. Evidence does not establish that a particular direction guarantees better health; a quiet, dark and comfortable sleep environment is important."},
+    {"question":"Where should the kitchen be located?","keywords":["kitchen direction","kitchen location","kitchen zone"],"answer":"Many Vastu guides associate the kitchen with the south-east, with alternatives depending on the tradition and layout. In practice, prioritise fire safety, ventilation, plumbing and efficient workflow."},
+    {"question":"Where should the gas stove be placed?","keywords":["gas stove location","hob direction","cooking direction","stove placement"],"answer":"Some Vastu advice suggests the south-east zone and facing east while cooking where feasible. Appliance clearance, fire safety and ventilation requirements must take priority."},
+    {"question":"Where should the sink be in a kitchen?","keywords":["kitchen sink","sink direction","water and stove"],"answer":"Some traditions prefer separating water fixtures from the stove. For a practical kitchen, provide safe separation from electrical equipment, good drainage and convenient work surfaces."},
+    {"question":"Which direction is suitable for a pooja room?","keywords":["pooja room direction","puja room","mandir direction","prayer room"],"answer":"North-east is a common traditional recommendation for a pooja or prayer space. If that is impractical, a quiet, clean and respectful location can still work for the household."},
+    {"question":"Where should a toilet be located?","keywords":["toilet direction","bathroom direction","washroom location"],"answer":"Traditional recommendations vary; some guides discuss west or north-west zones. Plumbing, waterproofing, ventilation, accessibility and local building codes are essential in real construction."},
+    {"question":"Which direction is good for a study table?","keywords":["study table direction","study desk direction","facing direction study"],"answer":"Some Vastu guidance suggests facing east or north while studying. There is no established guarantee from direction alone; prioritise posture, good lighting, low distraction and a comfortable desk setup."},
+    {"question":"Which direction is recommended for a living room?","keywords":["living room direction","hall direction","drawing room location"],"answer":"Some Vastu guides suggest east, north or north-east areas for a living room. The best practical layout depends on circulation, daylight, views, accessibility and how the household uses the room."},
+    {"question":"Where should a water tank be placed?","keywords":["water tank direction","overhead tank","underground tank","tank placement"],"answer":"Some Vastu traditions discuss different zones for underground and overhead tanks. Actual placement must be decided with structural capacity, waterproofing, water quality, plumbing and local regulations in mind."},
+    {"question":"Where should a mirror be placed in the bedroom?","keywords":["bedroom mirror","mirror facing bed","mirror direction"],"answer":"Some Vastu traditions advise avoiding a mirror directly facing the bed. Practically, position mirrors to avoid unwanted reflections and glare and mount them securely."},
+    {"question":"Which colours are suitable for a bedroom?","keywords":["bedroom colour","bedroom color","bedroom paint"],"answer":"Soft neutrals, muted greens and gentle earth tones are common suggestions. Choose a palette that supports your comfort and works with the room's natural light."},
+    {"question":"Which colours are suitable for a kitchen?","keywords":["kitchen colour","kitchen color","kitchen paint"],"answer":"Warm white, cream, light yellow and earthy shades are common traditional suggestions. Consider cleanability, durability and task lighting when selecting finishes."},
+    {"question":"Which colours are suitable for a living room?","keywords":["living room colour","living room color","hall paint"],"answer":"Warm neutrals, muted greens and terracotta accents can create a welcoming atmosphere. Coordinate with furniture, lighting and personal taste rather than relying on a promised outcome."},
+    {"question":"Where should plants be kept at home?","keywords":["plant direction","indoor plants vastu","plants at home","garden"],"answer":"Plant-placement suggestions vary across Vastu traditions. Choose plants suited to available light, drainage and maintenance, and check whether they are safe around children and pets."},
+    {"question":"Where should a Tulsi plant be placed?","keywords":["tulsi plant direction","holy basil","tulsi placement"],"answer":"Tulsi has cultural and religious significance in many Indian households and is often kept in a clean, bright place. Ensure the plant receives suitable sunlight, water and drainage."},
+    {"question":"Which direction is associated with wealth in Vastu?","keywords":["wealth direction","money direction","prosperity direction","cash locker"],"answer":"North is commonly associated with wealth or opportunity in some Vastu interpretations. These are traditional associations, not reliable financial predictions. Financial decisions should be based on evidence and sound planning."},
+    {"question":"Where should a safe or locker be placed?","keywords":["locker direction","safe placement","cash locker direction","money cupboard"],"answer":"Some Vastu guides recommend placing a safe in the north or south-west with its door opening toward a preferred direction. For practical purposes, prioritise secure anchoring, access control, fire protection and insurance requirements."},
+    {"question":"What is Brahmasthan?","keywords":["brahmasthan meaning","centre of house","house center","central zone"],"answer":"Brahmasthan refers to the central area of a Vastu plan and is often treated as an important or open zone in traditional layouts. Actual floor plans must still meet structural, circulation and space requirements."},
+    {"question":"What are the five elements in Vastu?","keywords":["five elements","panchabhuta","earth water fire air space","elements vastu"],"answer":"Traditional Indian frameworks often describe five elements: earth (Prithvi), water (Jal), fire (Agni), air (Vayu) and space (Akash). Their use in Vastu is part of a cultural-philosophical framework, not a substitute for building science."},
+    {"question":"What is Vastu Shastra?","keywords":["vastu meaning","definition of vastu","what is vastu shastra","vastushastra"],"answer":"Vastu Shastra is a traditional Indian body of knowledge about the planning and arrangement of buildings and spaces. It includes concepts related to orientation, proportions, room use and the relationship between people and their surroundings."},
+    {"question":"Is Vastu Shastra part of Indian Knowledge Systems?","keywords":["iks","indian knowledge systems","vastu and iks","traditional knowledge"],"answer":"Vastu Shastra is commonly studied in the context of Indian Knowledge Systems because it reflects historical Indian ideas about built environments, orientation and spatial planning. Specific claims should be examined in their historical and cultural context."},
+    {"question":"Can technology be used with Vastu Shastra?","keywords":["modern technology vastu","digital vastu","technology and vastu","AI vastu","software vastu"],"answer":"Yes. Digital compasses, floor-plan tools, searchable databases and 3D modelling can help people document or explore traditional concepts. Technology can support measurement and visualisation, but it does not by itself prove claims about luck or health."},
+    {"question":"How does a digital compass work?","keywords":["digital compass","compass sensor","phone compass","orientation sensor"],"answer":"A device compass may use a magnetometer and motion sensors, with software estimating heading. Readings can be affected by calibration, magnetic interference, device hardware and browser permissions. Browser orientation events are not available on every device."},
+    {"question":"Is Vastu scientifically proven?","keywords":["scientific evidence","is vastu science","vastu proof","does vastu work"],"answer":"Vastu Shastra is a traditional knowledge system with cultural and historical significance. Some practical design ideas, such as daylight, ventilation and uncluttered circulation, can be evaluated using building science. Claims that direction alone guarantees wealth, health or luck are not established scientific facts."},
+    {"question":"Can Vastu improve health or guarantee success?","keywords":["health benefits vastu","success vastu","luck vastu","guarantee prosperity"],"answer":"No room direction can be relied upon to guarantee health, success or prosperity. Good ventilation, lighting, safety, accessibility and a comfortable environment can support wellbeing, while medical, financial and other important decisions should rely on qualified evidence-based advice."},
+    {"question":"Which direction is recommended for a staircase?","keywords":["staircase direction","stair location","stairs vastu"],"answer":"Some Vastu guides discuss south, west or south-west locations for staircases. Structural layout, headroom, handrails, fire safety, circulation and local building codes should determine the final design."},
+    {"question":"Where should a septic tank be placed?","keywords":["septic tank direction","septic tank location","sewage tank"],"answer":"Traditional placement suggestions vary, but a septic tank must be located according to sanitation rules, soil conditions, groundwater protection, maintenance access and required distances from wells, foundations and property boundaries."},
+    {"question":"Where should a garden be located?","keywords":["garden direction","garden vastu","plants outside house"],"answer":"Vastu garden recommendations vary by tradition. For a healthy garden, consider sunlight, soil, drainage, root spread, maintenance access and the impact of trees on foundations and utilities."},
+    {"question":"What is the role of natural light in a home?","keywords":["natural light","sunlight in home","daylight design"],"answer":"Natural light can improve visual comfort and reduce daytime reliance on electric lighting, though glare and heat gain need management. Window orientation, shading and climate are important design factors."},
+    {"question":"Why is ventilation important?","keywords":["ventilation","fresh air","airflow","cross ventilation"],"answer":"Ventilation helps remove indoor pollutants, moisture and odours and can improve indoor air quality. Effective ventilation should be designed for local climate, occupancy, cooking needs and building standards."},
+    {"question":"What should be considered before building a house?","keywords":["house construction","building a home","before building","home planning"],"answer":"Consider site conditions, orientation, climate, structural safety, drainage, daylight, ventilation, accessibility, energy use, budget and local planning rules. Consult qualified architects and engineers; treat traditional preferences as one input rather than the only design basis."},
+    {"question":"What is the difference between Vastu and modern architecture?","keywords":["vastu vs architecture","modern architecture","difference vastu"],"answer":"Vastu Shastra is a traditional framework for thinking about built spaces, while modern architecture draws on contemporary design methods, engineering, building science, accessibility and regulations. Projects can discuss both, but technical safety and evidence-based performance must be verified."},
+    {"question":"Can a small flat follow Vastu principles?","keywords":["small flat vastu","apartment vastu","small house vastu","flat layout"],"answer":"In a small flat, focus first on safe circulation, ventilation, daylight, storage, privacy and accessibility. Some traditional preferences may be adapted, but structural walls, plumbing shafts and building rules limit what can be changed."},
+    {"question":"Which direction is best for a home office?","keywords":["home office direction","office desk vastu","work from home desk"],"answer":"Some Vastu recommendations suggest facing east or north at a work desk. For productive work, prioritise ergonomic posture, low glare, comfortable lighting, stable internet and fewer distractions."},
+    {"question":"Where should a refrigerator be placed?","keywords":["fridge direction","refrigerator placement","fridge in kitchen"],"answer":"Traditional suggestions for appliances vary. Place the refrigerator where it has the clearances specified by the manufacturer, ventilation, a safe power supply and convenient access without obstructing kitchen circulation."},
+    {"question":"Where should a washing machine be placed?","keywords":["washing machine direction","washing machine placement","laundry area"],"answer":"Some Vastu guides suggest particular zones for laundry appliances, but practical needs are decisive: level flooring, drainage, water supply, electrical safety, vibration control and maintenance access."},
+    {"question":"What is the importance of the north-east direction?","keywords":["north east importance","northeast meaning","ishanya direction"],"answer":"North-east, sometimes called Ishanya in traditional terminology, is commonly associated with prayer, clarity or openness in Vastu interpretations. These are cultural associations; practical room planning should also account for site and building constraints."},
+    {"question":"What is the importance of the south-east direction?","keywords":["south east importance","southeast meaning","agni direction"],"answer":"South-east is commonly associated with Agni, the fire principle, in Vastu traditions and is often discussed for kitchens. Real cooking spaces must meet ventilation and fire-safety requirements."},
+    {"question":"How can I use the VastuVerse house planner?","keywords":["use planner","house planner help","place room","planner instructions"],"answer":"Choose a room type and a zone from the planner controls, then press “Place room +”. Click an empty grid zone to select it, or click a placed room to remove it. Press “Reset layout” to clear the sample plan."}
+  ],
+  "fallback": "I couldn't find a close match in the VastuVerse database. Try a topic such as bedroom, kitchen, entrance, pooja room, bathroom, study room, directions, mirror, colours, plants, water tank or digital compass. You can also ask a short, specific question."
+}
